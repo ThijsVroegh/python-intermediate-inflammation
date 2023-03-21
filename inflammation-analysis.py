@@ -27,7 +27,7 @@ def main(args):
             'max': models.daily_max(inflammation_data),
             'min': models.daily_min(inflammation_data)
         }
-        
+
         views.visualize(view_data)
 
 if __name__ == "__main__":
